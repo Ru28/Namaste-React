@@ -114,5 +114,15 @@ const HeadingComponent = () =>(
 // React Functional Component
 
 // Component Compositions
+```
 
 ```
+// not using keys (not acceptable) <<<< index as key <<<<<<<<<< unique id (best practice)
+
+// whenever state variable update, react re-render components.
+
+
+// Normal JS Variable
+// let listOfRestaurants = [];
+  
+ 
