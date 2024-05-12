@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import RestaurantCard from "./RestaurantCard";
 import Shimmer from "./Shimmer";
 import { useEffect, useState } from "react";
@@ -12,7 +13,6 @@ const Body = () => {
 
   // Whenever state variable update, react triggers a reconcliation cycle(re-renders the component)
 
-  console.log("Body Rendered");
 
   useEffect(()=>{
     fetchData();
@@ -68,7 +68,7 @@ const Body = () => {
         <div className="res-container">
           {
               filteredRestaurant.map((restaurant)=> 
-                (<RestaurantCard key={restaurant.info.id} resData={restaurant}/>))
+                (<Link key={restaurant.info.id} to={"/restaurants/"+ restaurant.info.id}><RestaurantCard resData={restaurant}/></Link>))
           }
         </div>
       </div>

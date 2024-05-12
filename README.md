@@ -57,3 +57,9 @@ import {Component} from "path";
 (Normal JS Utility Functions)
 - useState() - Superpowerful State Variable in react
 - useEffect()
+
+
+# 2 types Routing in web apps
+- Client Side Routing  - No fetching page(No network call) when switch the route
+- Server Side Routing - fetching page from server when switch route of web App
+
