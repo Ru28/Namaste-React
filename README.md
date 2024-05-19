@@ -63,3 +63,25 @@ import {Component} from "path";
 - Client Side Routing  - No fetching page(No network call) when switch the route
 - Server Side Routing - fetching page from server when switch route of web App
 
+/*
+- Parent Constructor
+- Parent render
+    
+   - First Constructor
+   - First Render
+
+   - Second Constructor
+   - Second Render
+
+   DOM Updated - In Single Batch
+   - First ComponentDidMount
+   - Second ComponentDidMount
+
+-Parent ComponentDidMount
+
+*/
+
+// Never update state Variables directly
+this.setState({
+    count: this.state.count + 1,
+})

@@ -11,10 +11,9 @@ const Header = () => {
 
 
   useEffect(()=>{
-    console.log("useEffect called");
   },[btnName]);
 
-  console.log("Header rendered");
+
 
     return (
       <div className="header">
