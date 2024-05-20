@@ -82,6 +82,8 @@ import {Component} from "path";
 */
 
 // Never update state Variables directly
+```javaScript
 this.setState({
     count: this.state.count + 1,
 })
+```
