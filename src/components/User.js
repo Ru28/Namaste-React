@@ -7,16 +7,16 @@ const User = ({name}) =>{
     useEffect(()=>{
         // API Calls
         const timer=setInterval(()=>{
-            console.log("Namaste react OP");
+            // console.log("Namaste react OP");
         },1000);
-        console.log("useEffect");
+        // console.log("useEffect");
         return ()=>{
             clearInterval(timer);
-            console.log("useEffect return");
+            // console.log("useEffect return");
         }
     },[]);
 
-    console.log("render");
+    // console.log("render");
 
     return <div className="user-card m-4 p-4 bg-gray-50 rounded-lg">
         <h1>Count= {count}</h1>
