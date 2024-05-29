@@ -87,3 +87,13 @@ this.setState({
     count: this.state.count + 1,
 })
 ```
+
+# Redux Toolkit
+```
+- Install @reduxjs/toolkit and react-redux
+- Build Our store
+- Connect our store to our app
+- Slice (cartSlice)
+- dispatch(action)
+- Selector
+```
